@@ -14,4 +14,3 @@ def notify_telegram(song_name, video_path):
             data={"chat_id": chat_id, "caption": f"🎬 Video hazır: {song_name}\nOnaylıyor musun?"},
             files={"video": vid}
         )
-    print(f"Notification gönderildi: {song_name}")
