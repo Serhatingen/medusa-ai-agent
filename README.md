@@ -1,2 +1,3 @@
 # Medusa AI Agent
-Otomatik müzik postlayan AI sistemi.
+
+Otomatik müzik video üretimi ve Telegram üzerinden onay akışı.
