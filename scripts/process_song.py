@@ -42,6 +42,5 @@ def process_songs():
 
         # Mark as processed
         with open(PROCESSED_FILE, 'a') as f:
-            f.write(song_name + "
-")
+           f.write(song_name + '\n')
         processed.add(song_name)
