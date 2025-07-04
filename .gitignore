@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Outputs
+outputs/
+
+# Songs (LFS handled)
+songs/
