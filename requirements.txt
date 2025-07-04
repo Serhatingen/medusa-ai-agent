@@ -1,4 +1,5 @@
-ffmpeg-python
+whisper
 moviepy
-python-dotenv
+pillow
+numpy
 requests
