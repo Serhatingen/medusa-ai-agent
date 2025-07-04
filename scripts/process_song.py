@@ -6,6 +6,10 @@ from scripts.notify_for_approval import notify_telegram
 SONGS_DIR = "songs"
 OUTPUT_DIR = "outputs"
 
+# eksikse klasörü oluştur
+os.makedirs(SONGS_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 def process_songs():
     for filename in os.listdir(SONGS_DIR):
         if filename.endswith(".wav"):
